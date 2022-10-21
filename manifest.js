@@ -1,7 +1,11 @@
 module.exports = {
     version: '1.0.0',
     init: function (pluginContext) {
-        pluginContext.registerPolicy(require('./policies/wsproxy'));
+        try {
+            pluginContext.registerPolicy(require('./policies/wsproxy'));
+        } catch (e) {
+            console.log(e);
+        }
     },
     policies:['wsproxy'],
     schema: {
