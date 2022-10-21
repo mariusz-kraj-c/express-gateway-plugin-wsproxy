@@ -1,0 +1,36 @@
+{
+  "name": "express-gateway-plugin-wsproxy",
+  "version": "1.0.0",
+  "description": "Plugin for Express Gateway to proxy WebSockets",
+  "main": "manifest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExpressGateway/express-gateway-plugin-rewrite.git"
+  },
+  "keywords": [
+    "express-gateway",
+    "websocket",
+    "ws"
+  ],
+  "author": "Mariusz Kraj",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/mariusz-kraj-c/express-gateway-plugin-wsproxy#readme",
+  "bugs": {
+    "url": "https://github.com/mariusz-kraj-c/express-gateway-plugin-wsproxy/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
