@@ -37,5 +37,3 @@ eg plugin install express-gateway-plugin-wsproxy
           - action:
               serviceEndpoint: ws_endpoint
 ```
-
-### Configuration Parameters
